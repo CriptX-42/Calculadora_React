@@ -2,6 +2,11 @@
     height: 320px;
     width: 235px;
     border-radius: 5px;
-    overflow: hidden;
-    background-color: #383838;
+    /* overflow: hidden;
+    background-color: #383838; */
+
+    display: grid;
+    /* quatro colunas ocupando 25% */
+    grid-template-columns: repeat(4,25%); 
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
 }
